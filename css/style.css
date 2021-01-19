@@ -1,0 +1,108 @@
+/* TAGS */
+html, body {
+    color: white !important;
+    background-image: url("../img/background.jpg");
+    height: 100% !important;
+    scroll-behavior: smooth !important;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+/* SET FONT SIZE FOR SMALLER DISPLAYS */
+@media screen and (max-width: 900px) {
+    html, body {
+        font-size: 3vw;
+    }
+
+    .home .col-3 {
+        box-sizing: content-box;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2vw !important;
+}
+
+video {
+    width: 115vh !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img {
+    width: 20vh !important;
+}
+
+/* ICON */
+i {
+    font-size: 2vw;
+}
+
+p {
+    margin-top: 0.5vw !important;
+}
+
+/* CLASSES */
+.navbar {
+    font-size: 1.5vw;
+    color: black;
+    padding: 0.6vw !important;
+    margin-bottom: 2vw;
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.navbar a:hover, #active:hover {
+    background-color: #461677;
+    color: white !important;
+    border-radius: 1vw;
+}
+
+.nav-link, .navbar-brand {
+    padding: 0vw 1.2vw 0vw 1.2vw !important;
+    color: black !important;
+}
+
+.megamenu .dropdown-menu {
+    width: 35vw;
+}
+
+.megamenu .dropdown-menu a {
+    font-size: 1.5vw;
+    margin-bottom: 2vw !important;
+    color: white !important;
+}
+
+.megamenu .dropdown-menu .container {
+    background-image: url("../img/background.jpg");
+    opacity: 0.8;
+    padding: 1vw;
+}
+
+.bodyblock, .videoblock {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 2.5vw;
+    margin-top: 1vw;
+}
+
+.videoblock {
+    background: none !important;
+}
+
+.row {
+    margin-bottom: 2vw;
+}
+
+
+/* IDs */
+#active {
+    color: #5c15a2 !important;
+}
+
+#schnittregie, #stimmen, #musik {
+    margin-top: 3vw;
+}
