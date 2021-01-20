@@ -12,12 +12,8 @@ html, body {
 
 /* SET FONT SIZE FOR SMALLER DISPLAYS */
 @media screen and (max-width: 900px) {
-    html, body {
-        font-size: 3vw;
-    }
-
-    .home .col-3 {
-        box-sizing: content-box;
+    html, body, i, .navbar, .megamenu .dropdown-menu a  {
+        font-size: 3vh !important;
     }
 }
 
@@ -27,7 +23,7 @@ h1 {
 }
 
 video {
-    width: 115vh !important;
+    width: 100vh !important;
     margin-left: auto;
     margin-right: auto;
     display: block;
